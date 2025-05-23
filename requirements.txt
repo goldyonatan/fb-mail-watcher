@@ -3,4 +3,4 @@ python-telegram-bot==20.7
 imaplib2
 requests
 python-dotenv
-python-dotenv
+lxml
