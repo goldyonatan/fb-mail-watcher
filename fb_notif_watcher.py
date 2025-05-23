@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urlparse
 from pathlib import Path
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os, sys
 
 
@@ -24,7 +24,7 @@ env_path = Path(__file__).resolve().parent / ".env"
 if env_path.exists():
     pass
     #print("   Contents:\n", env_path.read_text(encoding="utf-8"), file=sys.stderr)
-loaded = load_dotenv(dotenv_path=env_path, override=True)
+#loaded = load_dotenv(dotenv_path=env_path, override=True)
 #print("2) load_dotenv returned:", loaded, file=sys.stderr)
 # ────────────────────────────────────────────────────────────────────────
 
